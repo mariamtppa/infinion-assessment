@@ -17,7 +17,7 @@ final class HomeViewController: UIViewController {
         if let city = cityTextField.text, !city.isEmpty {
             navigateToDetailsScreen(city: city)
         } else {
-            errorLabel.text = "Please enter the city you want to get weather information of."
+            errorLabel.text = "Field cannot be blank. Please enter the city you want to get weather information of."
             errorLabel.isHidden = false
         }
     }

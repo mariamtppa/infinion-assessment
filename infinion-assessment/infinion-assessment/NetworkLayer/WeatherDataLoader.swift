@@ -24,17 +24,20 @@ final class WeatherDataApiLoader: WeatherDataApiInterface {
     
     func getCityWeatherInformation(from city: String, completion: @escaping (Result<WeatherDataResponse, Error>) -> Void) {
         guard let url = getWeatherUrl(city: city) else {
-            completion(.failure(AppError.decodingError))
+            debugPrint("unable to make url from city string ???")
+            completion(.failure(AppError.defaultError))
             return
         }
         
         let task = URLSession.shared.dataTask(with: url) { weatherData, _, error in
             if let error {
+                debugPrint("there is an error from the api ???")
                 completion(.failure(AppError.endpointError(message: error.localizedDescription)))
                 return
             }
             
             guard let weatherData else {
+                debugPrint("no response ????????")
                 completion(.failure(AppError.emptyResponse))
                 return
             }
@@ -43,6 +46,7 @@ final class WeatherDataApiLoader: WeatherDataApiInterface {
                 let decodedData = try JSONDecoder().decode(WeatherDataResponse.self, from: weatherData)
                 completion(.success(decodedData))
             } catch {
+                debugPrint("unable to decode response ???")
                 completion(.failure(AppError.decodingError))
             }
         }

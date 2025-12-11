@@ -118,3 +118,12 @@ struct Sys: Codable {
     }
 }
 
+struct ErrorResponse: Error, Codable {
+    let cod: Int?
+    let message: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case cod = "country"
+        case message = "sunrise"
+    }
+}

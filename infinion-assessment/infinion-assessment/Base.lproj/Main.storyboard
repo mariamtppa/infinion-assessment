@@ -12,30 +12,18 @@
         <scene sceneID="2V6-u1-zFd">
             <objects>
                 <viewController storyboardIdentifier="HomeView" id="rLO-sO-omp" customClass="HomeViewController" customModule="infinion_assessment" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="54Y-qB-ai5">
+                    <view key="view" alpha="0.80000000000000004" contentMode="scaleToFill" id="54Y-qB-ai5">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dPG-gh-3dY">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="btV-aP-6SD">
                                 <rect key="frame" x="20" y="119" width="353" height="50"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="btV-aP-6SD">
-                                        <rect key="frame" x="0.0" y="0.0" width="223" height="50"/>
-                                        <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your city" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pNG-y6-bQH">
-                                                <rect key="frame" x="0.0" y="0.0" width="223" height="34"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElR-jU-KkD">
-                                                <rect key="frame" x="0.0" y="42" width="223" height="8"/>
-                                                <color key="tintColor" systemColor="systemRedColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <color key="textColor" systemColor="systemRedColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your city" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pNG-y6-bQH">
+                                        <rect key="frame" x="0.0" y="0.0" width="225" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAw-kj-cRY">
                                         <rect key="frame" x="233" y="0.0" width="120" height="50"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -57,13 +45,23 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElR-jU-KkD">
+                                <rect key="frame" x="20" y="174" width="353" height="0.0"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BL8-zx-GCz"/>
-                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="BL8-zx-GCz" firstAttribute="trailing" secondItem="dPG-gh-3dY" secondAttribute="trailing" constant="20" id="6gE-xc-1YT"/>
-                            <constraint firstItem="dPG-gh-3dY" firstAttribute="top" secondItem="BL8-zx-GCz" secondAttribute="top" constant="60" id="C5B-ld-cK1"/>
-                            <constraint firstItem="dPG-gh-3dY" firstAttribute="leading" secondItem="BL8-zx-GCz" secondAttribute="leading" constant="20" id="kk2-Pn-1Gx"/>
+                            <constraint firstItem="btV-aP-6SD" firstAttribute="leading" secondItem="BL8-zx-GCz" secondAttribute="leading" constant="20" id="Frq-hK-Hgp"/>
+                            <constraint firstItem="btV-aP-6SD" firstAttribute="top" secondItem="BL8-zx-GCz" secondAttribute="top" constant="60" id="KOC-It-mo6"/>
+                            <constraint firstItem="ElR-jU-KkD" firstAttribute="top" secondItem="btV-aP-6SD" secondAttribute="bottom" constant="5" id="g3c-jM-wTE"/>
+                            <constraint firstItem="BL8-zx-GCz" firstAttribute="trailing" secondItem="btV-aP-6SD" secondAttribute="trailing" constant="20" id="gUR-hr-E1V"/>
+                            <constraint firstItem="ElR-jU-KkD" firstAttribute="leading" secondItem="BL8-zx-GCz" secondAttribute="leading" constant="20" id="rHY-Zv-jAD"/>
+                            <constraint firstItem="BL8-zx-GCz" firstAttribute="trailing" secondItem="ElR-jU-KkD" secondAttribute="trailing" constant="20" id="weq-MV-Skd"/>
                         </constraints>
                     </view>
                     <connections>
@@ -78,9 +76,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

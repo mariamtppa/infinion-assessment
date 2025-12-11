@@ -11,6 +11,7 @@ enum AppError: Error, CustomStringConvertible {
     case decodingError
     case emptyResponse
     case endpointError(message: String)
+    case defaultError
     
     var description: String {
         switch self {
@@ -20,6 +21,8 @@ enum AppError: Error, CustomStringConvertible {
             "There is no response for your city."
         case .endpointError(let message):
             message
+        case .defaultError:
+            "Sorry, something went wrong. Please try again later."
         }
     }
 }
