@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CEC69DF42EEABDA600C183BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC69DD52EEABDA400C183BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC69DDC2EEABDA400C183BB;
+			remoteInfo = "infinion-assessment";
+		};
+		CEC69DFE2EEABDA600C183BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC69DD52EEABDA400C183BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC69DDC2EEABDA400C183BB;
+			remoteInfo = "infinion-assessment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEC69DDD2EEABDA400C183BB /* infinion-assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "infinion-assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC69DF32EEABDA600C183BB /* infinion-assessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "infinion-assessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC69DFD2EEABDA600C183BB /* infinion-assessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "infinion-assessmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CEC69E052EEABDA700C183BB /* Exceptions for "infinion-assessment" folder in "infinion-assessment" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CEC69DDC2EEABDA400C183BB /* infinion-assessment */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CEC69DDF2EEABDA400C183BB /* infinion-assessment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CEC69E052EEABDA700C183BB /* Exceptions for "infinion-assessment" folder in "infinion-assessment" target */,
+			);
+			path = "infinion-assessment";
+			sourceTree = "<group>";
+		};
+		CEC69DF62EEABDA600C183BB /* infinion-assessmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "infinion-assessmentTests";
+			sourceTree = "<group>";
+		};
+		CEC69E002EEABDA600C183BB /* infinion-assessmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "infinion-assessmentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC69DDA2EEABDA400C183BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC69DF02EEABDA600C183BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC69DFA2EEABDA600C183BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC69DD42EEABDA400C183BB = {
+			isa = PBXGroup;
+			children = (
+				CEC69DDF2EEABDA400C183BB /* infinion-assessment */,
+				CEC69DF62EEABDA600C183BB /* infinion-assessmentTests */,
+				CEC69E002EEABDA600C183BB /* infinion-assessmentUITests */,
+				CEC69DDE2EEABDA400C183BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC69DDE2EEABDA400C183BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC69DDD2EEABDA400C183BB /* infinion-assessment.app */,
+				CEC69DF32EEABDA600C183BB /* infinion-assessmentTests.xctest */,
+				CEC69DFD2EEABDA600C183BB /* infinion-assessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC69DDC2EEABDA400C183BB /* infinion-assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC69E062EEABDA700C183BB /* Build configuration list for PBXNativeTarget "infinion-assessment" */;
+			buildPhases = (
+				CEC69DD92EEABDA400C183BB /* Sources */,
+				CEC69DDA2EEABDA400C183BB /* Frameworks */,
+				CEC69DDB2EEABDA400C183BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CEC69DDF2EEABDA400C183BB /* infinion-assessment */,
+			);
+			name = "infinion-assessment";
+			packageProductDependencies = (
+			);
+			productName = "infinion-assessment";
+			productReference = CEC69DDD2EEABDA400C183BB /* infinion-assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC69DF22EEABDA600C183BB /* infinion-assessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC69E0B2EEABDA700C183BB /* Build configuration list for PBXNativeTarget "infinion-assessmentTests" */;
+			buildPhases = (
+				CEC69DEF2EEABDA600C183BB /* Sources */,
+				CEC69DF02EEABDA600C183BB /* Frameworks */,
+				CEC69DF12EEABDA600C183BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC69DF52EEABDA600C183BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEC69DF62EEABDA600C183BB /* infinion-assessmentTests */,
+			);
+			name = "infinion-assessmentTests";
+			packageProductDependencies = (
+			);
+			productName = "infinion-assessmentTests";
+			productReference = CEC69DF32EEABDA600C183BB /* infinion-assessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEC69DFC2EEABDA600C183BB /* infinion-assessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC69E0E2EEABDA700C183BB /* Build configuration list for PBXNativeTarget "infinion-assessmentUITests" */;
+			buildPhases = (
+				CEC69DF92EEABDA600C183BB /* Sources */,
+				CEC69DFA2EEABDA600C183BB /* Frameworks */,
+				CEC69DFB2EEABDA600C183BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC69DFF2EEABDA600C183BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEC69E002EEABDA600C183BB /* infinion-assessmentUITests */,
+			);
+			name = "infinion-assessmentUITests";
+			packageProductDependencies = (
+			);
+			productName = "infinion-assessmentUITests";
+			productReference = CEC69DFD2EEABDA600C183BB /* infinion-assessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC69DD52EEABDA400C183BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CEC69DDC2EEABDA400C183BB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CEC69DF22EEABDA600C183BB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CEC69DDC2EEABDA400C183BB;
+					};
+					CEC69DFC2EEABDA600C183BB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CEC69DDC2EEABDA400C183BB;
+					};
+				};
+			};
+			buildConfigurationList = CEC69DD82EEABDA400C183BB /* Build configuration list for PBXProject "infinion-assessment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC69DD42EEABDA400C183BB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CEC69DDE2EEABDA400C183BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC69DDC2EEABDA400C183BB /* infinion-assessment */,
+				CEC69DF22EEABDA600C183BB /* infinion-assessmentTests */,
+				CEC69DFC2EEABDA600C183BB /* infinion-assessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC69DDB2EEABDA400C183BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC69DF12EEABDA600C183BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC69DFB2EEABDA600C183BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC69DD92EEABDA400C183BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC69DEF2EEABDA600C183BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC69DF92EEABDA600C183BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC69DF52EEABDA600C183BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC69DDC2EEABDA400C183BB /* infinion-assessment */;
+			targetProxy = CEC69DF42EEABDA600C183BB /* PBXContainerItemProxy */;
+		};
+		CEC69DFF2EEABDA600C183BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC69DDC2EEABDA400C183BB /* infinion-assessment */;
+			targetProxy = CEC69DFE2EEABDA600C183BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEC69E072EEABDA700C183BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDAMWN8UL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "infinion-assessment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mariam.infinion-assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC69E082EEABDA700C183BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDAMWN8UL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "infinion-assessment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mariam.infinion-assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEC69E092EEABDA700C183BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEC69E0A2EEABDA700C183BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC69E0C2EEABDA700C183BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDAMWN8UL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mariam.infinion-assessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/infinion-assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/infinion-assessment";
+			};
+			name = Debug;
+		};
+		CEC69E0D2EEABDA700C183BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDAMWN8UL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mariam.infinion-assessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/infinion-assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/infinion-assessment";
+			};
+			name = Release;
+		};
+		CEC69E0F2EEABDA700C183BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDAMWN8UL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mariam.infinion-assessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "infinion-assessment";
+			};
+			name = Debug;
+		};
+		CEC69E102EEABDA700C183BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CDAMWN8UL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mariam.infinion-assessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "infinion-assessment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC69DD82EEABDA400C183BB /* Build configuration list for PBXProject "infinion-assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC69E092EEABDA700C183BB /* Debug */,
+				CEC69E0A2EEABDA700C183BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC69E062EEABDA700C183BB /* Build configuration list for PBXNativeTarget "infinion-assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC69E072EEABDA700C183BB /* Debug */,
+				CEC69E082EEABDA700C183BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC69E0B2EEABDA700C183BB /* Build configuration list for PBXNativeTarget "infinion-assessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC69E0C2EEABDA700C183BB /* Debug */,
+				CEC69E0D2EEABDA700C183BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC69E0E2EEABDA700C183BB /* Build configuration list for PBXNativeTarget "infinion-assessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC69E0F2EEABDA700C183BB /* Debug */,
+				CEC69E102EEABDA700C183BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC69DD52EEABDA400C183BB /* Project object */;
+}
