@@ -13,7 +13,7 @@ protocol WeatherDataApiInterface {
 
 final class WeatherDataApiLoader: WeatherDataApiInterface {
     
-    private let apiKey = "73d46ec792f7188ca13af020d5a05ecf"
+    private let apiKey = Bundle.main.apiKey
     
     init() {}
     
@@ -28,7 +28,7 @@ final class WeatherDataApiLoader: WeatherDataApiInterface {
             completion(.failure(AppError.defaultError))
             return
         }
-        print(url, "call url ??????")
+        
         let task = URLSession.shared.dataTask(with: url) { weatherData, _, error in
             if let error {
                 debugPrint("there is an error from the api ???")

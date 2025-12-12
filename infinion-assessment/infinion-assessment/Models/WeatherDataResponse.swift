@@ -100,7 +100,6 @@ struct Clouds: Codable {
     let all: Int?
     
     enum CodingKeys: String, CodingKey {
-        
         case all = "all"
     }
 }
@@ -123,7 +122,7 @@ struct ErrorResponse: Error, Codable {
     let message: String?
     
     enum CodingKeys: String, CodingKey {
-        case cod = "country"
-        case message = "sunrise"
+        case cod
+        case message
     }
 }
