@@ -40,9 +40,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 extension SceneDelegate {
     private func initialSetUp() {
         let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        guard let viewController = storyBoard.instantiateViewController(withIdentifier: "HomeView") as? HomeViewController else {
-            return
-        }
+        let viewModel = HomeViewModel()
+        let viewController = storyBoard.instantiateViewController(identifier: "HomeView", creator: { coder in
+            return HomeViewController(coder: coder, viewModel: viewModel)
+        })
         let navigationController = UINavigationController(rootViewController: viewController)
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()

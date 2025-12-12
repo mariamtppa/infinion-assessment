@@ -9,6 +9,8 @@ import UIKit
 
 final class HomeViewController: UIViewController {
 
+    let viewModel: HomeViewModel
+    
     @IBOutlet weak var getDataButton: UIButton!
     @IBOutlet weak var cityTextField: UITextField!
     @IBOutlet weak var errorLabel: UILabel!
@@ -22,18 +24,24 @@ final class HomeViewController: UIViewController {
         }
     }
     
-    init() {
-        super.init(nibName: nil, bundle: nil)
-        print("init home view controller ????????")
+    init?(coder: NSCoder, viewModel: HomeViewModel) {
+        self.viewModel = viewModel
+        super.init(coder: coder)
     }
     
     required init?(coder: NSCoder) {
+        self.viewModel = HomeViewModel()
         super.init(coder: coder)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         errorLabel.isHidden = true
+        
+    }
+    
+    private func prepopulateFavouriteCity() {
+        cityTextField.text = viewModel.getFavouriteCity()
     }
     
     private func navigateToDetailsScreen(city: String) {
