@@ -28,7 +28,7 @@ final class WeatherDataApiLoader: WeatherDataApiInterface {
             completion(.failure(AppError.defaultError))
             return
         }
-        
+        print(url, "call url ??????")
         let task = URLSession.shared.dataTask(with: url) { weatherData, _, error in
             if let error {
                 debugPrint("there is an error from the api ???")

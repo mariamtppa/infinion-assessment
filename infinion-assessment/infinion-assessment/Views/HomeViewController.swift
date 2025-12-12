@@ -14,6 +14,7 @@ final class HomeViewController: UIViewController {
     @IBOutlet weak var getDataButton: UIButton!
     @IBOutlet weak var cityTextField: UITextField!
     @IBOutlet weak var errorLabel: UILabel!
+    @IBOutlet weak var saveFavoriteCityButton: UIButton!
     
     @IBAction func getDataButtonAction(_ sender: UIButton) {
         if let city = cityTextField.text, !city.isEmpty {
@@ -22,6 +23,11 @@ final class HomeViewController: UIViewController {
             errorLabel.text = "Field cannot be blank. Please enter the city you want to get weather information of."
             errorLabel.isHidden = false
         }
+    }
+    
+    @IBAction func saveFavouriteCityButtonAction(_ sender: UIButton) {
+        guard let favoriteCity = cityTextField.text, !favoriteCity.isEmpty else { return }
+        viewModel.saveFavouriteCity(city: favoriteCity)
     }
     
     init?(coder: NSCoder, viewModel: HomeViewModel) {
@@ -37,7 +43,7 @@ final class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         errorLabel.isHidden = true
-        
+        prepopulateFavouriteCity()
     }
     
     private func prepopulateFavouriteCity() {

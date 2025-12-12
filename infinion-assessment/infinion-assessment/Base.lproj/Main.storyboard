@@ -36,7 +36,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Get weather data" cornerStyle="capsule" titleAlignment="automatic"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="5"/>
+                                                <integer key="value" value="10"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -52,15 +52,35 @@
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQj-sz-U8Y">
+                                <rect key="frame" x="104" y="229" width="185" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qVg-R7-g7b"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Save as favourite city"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="saveFavouriteCityButtonAction:" destination="rLO-sO-omp" eventType="touchUpInside" id="DrL-wi-VAa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BL8-zx-GCz"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="nQj-sz-U8Y" firstAttribute="top" secondItem="btV-aP-6SD" secondAttribute="bottom" constant="60" id="3jX-zx-ECj"/>
                             <constraint firstItem="btV-aP-6SD" firstAttribute="leading" secondItem="BL8-zx-GCz" secondAttribute="leading" constant="20" id="Frq-hK-Hgp"/>
                             <constraint firstItem="btV-aP-6SD" firstAttribute="top" secondItem="BL8-zx-GCz" secondAttribute="top" constant="60" id="KOC-It-mo6"/>
                             <constraint firstItem="ElR-jU-KkD" firstAttribute="top" secondItem="btV-aP-6SD" secondAttribute="bottom" constant="5" id="g3c-jM-wTE"/>
                             <constraint firstItem="BL8-zx-GCz" firstAttribute="trailing" secondItem="btV-aP-6SD" secondAttribute="trailing" constant="20" id="gUR-hr-E1V"/>
                             <constraint firstItem="ElR-jU-KkD" firstAttribute="leading" secondItem="BL8-zx-GCz" secondAttribute="leading" constant="20" id="rHY-Zv-jAD"/>
+                            <constraint firstItem="nQj-sz-U8Y" firstAttribute="centerX" secondItem="54Y-qB-ai5" secondAttribute="centerX" id="tvF-yc-7rZ"/>
                             <constraint firstItem="BL8-zx-GCz" firstAttribute="trailing" secondItem="ElR-jU-KkD" secondAttribute="trailing" constant="20" id="weq-MV-Skd"/>
                         </constraints>
                     </view>
@@ -68,6 +88,7 @@
                         <outlet property="cityTextField" destination="pNG-y6-bQH" id="Keo-3i-9sw"/>
                         <outlet property="errorLabel" destination="ElR-jU-KkD" id="UVF-VZ-EEc"/>
                         <outlet property="getDataButton" destination="vAw-kj-cRY" id="ehM-km-ee2"/>
+                        <outlet property="saveFavoriteCityButton" destination="nQj-sz-U8Y" id="ciN-XB-mz3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Faa-mS-Qfm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -77,7 +98,7 @@
     </scenes>
     <resources>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

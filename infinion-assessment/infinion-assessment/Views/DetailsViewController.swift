@@ -49,8 +49,8 @@ extension DetailsViewController: DetailsViewModelDelegate {
     func updateUI(weatherData: WeatherDataResponse) {
         DispatchQueue.main.async { [weak self] in
             guard let self else { return }
-            weatherDescriptionLabel.text = weatherData.weather?[0].description ?? ""
-            temperatureLabel.text = "\(weatherData.main?.temp ?? 0)°C"
+            weatherDescriptionLabel.text = weatherData.weather?[0].description?.capitalized ?? ""
+            temperatureLabel.text = "\(weatherData.main?.temp ?? 0) K"
         }
     }
 }
